@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Subhashini | Portfolio - Contact</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <!-- <svg class="brand-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> -->
+          <circle cx="12" cy="8" r="5" fill="currentColor"/>
+          <path d="M20 21C20 16.5817 16.4183 13 12 13C7.58172 13 4 16.5817 4 21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        Subhashini
+      </div>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact</h1>
+        <p>Send me a message. I'll get back to you soon.</p>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container">
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="subhashini" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="subhashinimurugesan2122@gmail.com" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..." required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+          <p id="formStatus" role="status" aria-live="polite" class="form-status"></p>
+        </form>
+        <div class="contact-details">
+          <p><strong>Phone:</strong> <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="graphics-section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="graphic-container">
+          <svg class="graphic-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <rect x="15" y="25" width="70" height="50" rx="8" fill="none" stroke="#00d4aa" stroke-width="3"/>
+            <path d="M15 25 L50 50 L85 25" fill="none" stroke="#00d4aa" stroke-width="3"/>
+            <circle cx="35" cy="40" r="3" fill="#06e6eeec"/>
+            <circle cx="50" cy="40" r="3" fill="#06e6eeec"/>
+            <circle cx="65" cy="40" r="3" fill="#06e6eeec"/>
+            <text x="50" y="85" text-anchor="middle" fill="#00d4aa" font-size="8">Contact</text>
+          </svg>
+          <h3 class="graphic-title">Email</h3>
+        </div>
+        <div class="graphic-container">
+          <svg class="graphic-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M20 20 L80 20 L80 60 L60 60 L50 70 L40 60 L20 60 Z" fill="none" stroke="#00d4aa" stroke-width="3"/>
+            <circle cx="35" cy="35" r="3" fill="#06e6eeec"/>
+            <circle cx="50" cy="35" r="3" fill="#06e6eeec"/>
+            <circle cx="65" cy="35" r="3" fill="#06e6eeec"/>
+            <text x="50" y="85" text-anchor="middle" fill="#00d4aa" font-size="8">Message</text>
+          </svg>
+          <h3 class="graphic-title">Message</h3>
+        </div>
+        <div class="graphic-container">
+          <svg class="graphic-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="50" cy="50" r="35" fill="none" stroke="#00d4aa" stroke-width="3"/>
+            <path d="M30 50 L45 65 L70 35" stroke="#06e6eeec" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            <text x="50" y="85" text-anchor="middle" fill="#00d4aa" font-size="8">Response</text>
+          </svg>
+          <h3 class="graphic-title">Response</h3>
+        </div>
+        <div class="graphic-container">
+          <svg class="graphic-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="30" cy="30" r="8" fill="none" stroke="#00d4aa" stroke-width="3"/>
+            <circle cx="70" cy="30" r="8" fill="none" stroke="#00d4aa" stroke-width="3"/>
+            <circle cx="30" cy="70" r="8" fill="none" stroke="#00d4aa" stroke-width="3"/>
+            <circle cx="70" cy="70" r="8" fill="none" stroke="#00d4aa" stroke-width="3"/>
+            <path d="M38 30 L62 30" stroke="#06e6eeec" stroke-width="2"/>
+            <path d="M30 38 L30 62" stroke="#06e6eeec" stroke-width="2"/>
+            <path d="M38 70 L62 70" stroke="#06e6eeec" stroke-width="2"/>
+            <path d="M70 38 L70 62" stroke="#06e6eeec" stroke-width="2"/>
+            <text x="50" y="85" text-anchor="middle" fill="#00d4aa" font-size="8">Connect</text>
+          </svg>
+          <h3 class="graphic-title">Connect</h3>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Subhashini. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html> 
